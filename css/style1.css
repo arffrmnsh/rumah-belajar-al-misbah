@@ -1,0 +1,81 @@
+:root {
+  --primary: #eea220;
+  --bg: #d6d6d6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: var(--bg);
+  color: #010101;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 7%;
+  background-color: rgba(168, 168, 168, 0.9);
+  border-bottom: 1px solid #cb1616;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #d20303;
+  font-style: italic;
+}
+
+.navbar .navbar-logo span {
+  color: #002a9d;
+}
+
+.navbar .navbar-logo span1 {
+  font-size: 0.5rem;
+  font-weight: 100;
+  color: #019e0e;
+  font-style: italic;
+  display: block;
+  line-height: 0;
+}
+
+.navbar .navbar-extra a {
+  color: #010101;
+  margin: 0 0rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: var(--primary);
+}
+
+.about Section .about {
+  padding: 8rem 7% 1.4rem;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.about .content h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #d20303;
+}
